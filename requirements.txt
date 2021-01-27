@@ -1,0 +1,4 @@
+altgraph==0.17
+importlib-metadata==3.4.0
+pygame==2.0.1
+zipp==3.4.0
