@@ -11,7 +11,7 @@ class Ball(pygame.sprite.Sprite):
         self.image = pygame.Surface([width, height])
         self.image.fill((255, 0, 0))
         self.image.set_colorkey((255, 0,0))
-        self.speed = 3
+        self.speed = 0.6
         pygame.draw.circle(self.image, black, [10, 10], 10)
         self.over = False
 

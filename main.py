@@ -17,6 +17,7 @@ black = (0, 0, 0)
 game_screen = pygame.display.set_mode((screen_w, screen_h))
 pygame.display.set_caption('Breakout Game!')
 
+pygame.time.Clock()
 
 def random_color():
     r = random.randint(0, 245)
